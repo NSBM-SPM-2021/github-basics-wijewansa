@@ -1,49 +1,77 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="app.component.css">
+  <title>My Time Table</title>
+  <link rel="stylesheet" type="text/css" href="app.component.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-<form align="center">
-  <div class=""></div>
-  <h1>My Time Table</h1>
-  <table>
-  <div class="input">
-    <div class="input">
-    <tr><label>Add Title       </label>
-    <input type="text" name="heading" [(ngModle)] =" heading"></tr><br>
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="about-content">
+        <pre class="contact-details">
+          <h3>Let's create your <br>time table</h3>
+		</pre><br>
+          <pre class="contact-details">
+            <h5>Fill the details and submit <br><br> let's see how it is going....... </h5>
+        </pre>
+          <pre class="contact-details">
+            <img src="images/gif2.gif" class="butterfly">
+            <h4>Hi I'm little foxy <br><br> Don't worry I will help you....</h4>
+            <img src="images/gif1.gif" class="fox">
+        </pre>
+          <br>
+          <pre class="contact-details">
+
+        </pre>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h1 style=" text-align:center; font-style:italic">My Time Table</h1>
+        <div class="about-content">
+        </div>
+        <div class="contact-design">
+          <form name="cform" action="action.html"method="POST">
+            <label>Title</label>
+            <input type="text" id="fname" name="heading" [(ngModle)] =" heading" placeholder="Title......" required minlength="3" autocomplete="off"><br>
+
+            <label >Select Week</label>
+            <input type="week" name="week" id="week" [(ngModle)] ="week" autocomplete="off" required><br>
+
+            <label>Select Date </label>
+            <input type="date" name="date" id="date" [(ngModle)] ="date" required><br>
+
+            <label>Time</label>
+            <input type="time" name="time" [(ngModle)] ="time" required><br>
+
+            <label>Select the colour</label>
+            <input type="color" name="color" id="colour" [(ngModle)] ="color" required><br>
+
+            <label for="comment">Add details</label>
+            <textarea id="comment" name="comment" placeholder="Write something....." style="height:200px" required></textarea><br><br><br>
+
+            <input type="submit" value="Add" >
+            <input type="reset" value="Clear" > <br><br>
+
+            <label><h2>Let's see your Time table.....</h2><br>
+            <input type="button" value="My time table" onclick="window.location='app.component.html'"> <br>
+          </form>
+        </div>
+      </div>
+    </div>
+</section>
+<!----footer------->
+<section id="footer">
+  <div class="container">
+    <p align="center">Made with <i class="fa fa-heart-o"></i> by Little Time Fox</p>
+    <p align="center">Copyright © 2021 -Little Time Fox - All Rights Reserved.</p>
   </div>
-  <tr>
-    <label>Select Week</label>
-    <input type="week" name="week" [(ngModle)] ="week"></tr><br>
-  </div>
-  </div>
-    <label>Select Date</label>
-    <input type="date" name="date" [(ngModle)] ="date">
-  </div>
-  <div class="input">
-    <label>Time</label>
-    <input type="time" name="time" [(ngModle)] ="time">
-  </div>
-  <div class="input">
-    <label>Select the colour</label>
-    <input type="color" name="label" [(ngModle)] ="lable">
-  </div>
-  <div class="input">
-    <label>Add details</label>
-    <input type="text" name="details" [(ngModle)] ="details">
-  </div>
-  <div class="input">
-    <input type="submit" value="Add">
-  </div>
-  <div class="input">
-    <input type="button" value="Cancel" onclick="window.location='app.component.html'" >
-  </div>
-  <div class="image">
-    <img src="C:\Users\Kalpani\Desktop\images\k.gif">
-  </div>
-  </table>
-</form>
+</section>
 </body>
 </html>
