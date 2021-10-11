@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/spmproj21007902'),
+      dir: require('path').join(__dirname, './coverage/TimeTableUI'),
       subdir: '.',
       reporters: [
         { type: 'html' },
