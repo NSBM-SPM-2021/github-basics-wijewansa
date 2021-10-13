@@ -1,4 +1,8 @@
 # TimeTableUI
+main Screen
+![screen 1](https://user-images.githubusercontent.com/56906781/137190094-98f56444-f959-4d2b-90a3-41e2cb6ecb8e.PNG)
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.4.
 
