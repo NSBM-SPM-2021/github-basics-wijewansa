@@ -1,0 +1,28 @@
+<div class="form-froup row">
+
+    <label class="col-sm-2 col-form-lable">Title</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control" [(ngModel)]="Title">
+    
+        <!--<label class="col-sm-2 col-form-lable">Week</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control" [(ngModel)]="Weeek">-->
+    
+        <label class="col-sm-2 col-form-lable">SelectDate</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control" [(ngModel)]="SelectDate">
+    
+        <label class="col-sm-2 col-form-lable">SelectTime</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control" [(ngModel)]="SelectTime">
+    
+        <label class="col-sm-2 col-form-lable">Details</label>
+    <div class="col-sm-10">
+        <input type="text" class="form-control" [(ngModel)]="Detail">
+    </div>
+    </div>
+    
+    <button (click)="addTask()" *ngIf="task.TaskId==0" class="btn btn-primary">Add</button>
+    <button (click)="updateTask()" *ngIf="task.TaskId!=0" class="btn btn-primary">Update</button>
+    
+    

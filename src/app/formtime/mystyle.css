@@ -1,0 +1,196 @@
+body{
+	background-image: linear-gradient(to right top, #d1a26b, #e5977e, #ea909b, #df92bb, #c29ad6, #9fa8eb, #70b6f3, #3bc1ed, #1dd0db, #59dabd, #96e09b, #d2e084);
+}
+*{
+	margin: 1;
+	padding: 1;
+}
+/*-------About---------*/
+#about
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #555;
+}
+#about .btn
+{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.about-content
+{
+	padding-top: 20px;
+}
+input[type=text],[type=week],[type=date],[type=time], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit],[type=button],[type=reset] {
+  background-color:#D1A26B;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color:#986E3A;
+}
+input[type=button]:hover {
+  background-color:#986E3A;
+}
+input[type=reset]:hover {
+  background-color:#986E3A;
+}
+.contact-design {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+#contact /*action.html page-----*/
+{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(thanks.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	background-attachment: fixed;
+	text-align: center;
+	padding: 250px;
+	font-family: sans-serif;
+	font-size: 38px;
+}
+#footer
+{
+	background: #333;
+	color: #fff;
+	padding: 12px;
+}
+.fa-heart-o
+{
+	margin: 3px;
+	color: red;
+}
+.butterflybody{
+	background-image: linear-gradient(to right top, #d1a26b, #e5977e, #ea909b, #df92bb, #c29ad6, #9fa8eb, #70b6f3, #3bc1ed, #1dd0db, #59dabd, #96e09b, #d2e084);
+}
+*{
+	margin: 1;
+	padding: 1;
+}
+/*-------About---------*/
+#about
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #555;
+}
+#about .btn
+{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.about-content
+{
+	padding-top: 20px;
+}
+input[type=text],[type=week],[type=date],[type=time], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit],[type=button],[type=reset] {
+  background-color:#D1A26B;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color:#986E3A;
+}
+input[type=button]:hover {
+  background-color:#986E3A;
+}
+input[type=reset]:hover {
+  background-color:#986E3A;
+}
+.contact-design {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+#contact /*action.html page-----*/
+{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(thanks.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	background-attachment: fixed;
+	text-align: center;
+	padding: 250px;
+	font-family: sans-serif;
+	font-size: 38px;
+}
+#footer
+{
+	background: #333;
+	color: #fff;
+	padding: 12px;
+}
+.fa-heart-o
+{
+	margin: 3px;
+	color: red;
+}
+.butterfly
+{
+width: 80%;
+
+}
+.fox{
+height:10%;
+}
+
+#colour{
+width:"50";
+}
+
+input[type=color]{
+width: 100%; /* Full width */
+}
+.butterfly
+{
+width: 80%;
+
+}
+.fox{
+height:10%;
+}
+
+#colour{
+width : "50";
+}
+
+input[type=color]{
+width: 100%; /* Full width */
+}
