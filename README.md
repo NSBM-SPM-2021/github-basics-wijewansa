@@ -27,12 +27,19 @@
 🟣Used tools and technologies
 
 Angular
+
 .net core web API
+
 MS sql
+
 Postment
+
 Trello
+
 Visual Code
+
 VS code
+
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.4.
